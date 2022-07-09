@@ -8,15 +8,6 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN npm install react-axios
-
-RUN npx tailwindcss init -p
-
-RUN npm install react-router-dom@6
-
-RUN npm install react-router
-
-RUN npm install react-sweetalert2
 
 COPY . .
 
