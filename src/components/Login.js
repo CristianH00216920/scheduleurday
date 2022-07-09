@@ -6,7 +6,7 @@ import userLogo from '../img/user.png'
 import '../App.css';
 import { Link } from "react-router-dom"
 //importar servicios
-import { apiUrl } from '../services/apirest'
+import { apiUrl } from '../services/apirest' 
 //axios
 import axios from 'axios'
 
